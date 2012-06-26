@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %} -- {{ quote.name }}{% endblock %}
+{% block content %}
+<div class="row-fluid">
+    <div class="span12">
+        <h2><a href="/">Home</a>  |  <b>{{ quote.name }}</b></h2>
+
+        <div class="quote">
+            <div class="quote-file">
+                <div class="quote-data quote-syntax">
+                    {% for i in quote.q %}
+                        <div class="line" style="text-shadow: none;">{{ i[1] }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        {% if n != 0 %}<a href="/{{ n-1 }}"><button class="btn btn-primary"><i class="icon-chevron-left"></i>Last</button>{% endif %}</a>
+        {% if n != qlen-1 %}<a href="/{{ n+1 }}"><button class="btn btn-primary">Next<i class="icon-chevron-right"></i></button>{% endif %}</a>
+    </div>
+</div>
+{% endblock %}

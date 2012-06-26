@@ -794,3 +794,41 @@ footer.footer{border-top:1px solid #1c1e22;}footer.footer p{color:#757c82;}
 .hide{display:none;}
 .show{display:block;}
 .invisible{visibility:hidden;}
+/* Added by @B1naryTh1ef */
+.quote div {
+padding: 0;
+margin: 0;
+}
+.quote .quote-file {
+border: 1px solid #dedede; /* gray */
+font-family: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+margin-bottom: 1em;
+}
+.quote .quote-file .quote-meta {
+overflow: hidden;
+font-size: 85%;
+padding: .5em;
+color: #666;
+background-color: #eaeaea;
+}
+.quote .quote-file .quote-meta a {
+color: #369;
+}
+.quote .quote-file .quote-meta a:visited {
+color: #737;
+}
+.quote .quote-file .quote-data {
+overflow: auto;
+word-wrap: normal;
+background-color: #f8f8ff;
+border-bottom: 1px solid #ddd;
+font-size: 100%;
+}
+.quote .quote-file .quote-data pre {
+font-family: 'Bitstream Vera Sans Mono', 'Courier', monospace;
+background: transparent !important;
+margin: 0 !important;
+border: none !important;
+padding: .25em .5em .5em .5em !important;
+}
+

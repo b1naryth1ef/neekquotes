@@ -1,33 +1,33 @@
 {% extends "base.html" %}
 {% block title %} -- Home{% endblock %}
 {% block content %}
- <div class="row-fluid">
-<div class="span12">
-  <div class='well'>
-    <h1>Welcome to Neek Quotes</h1>
-    <p>Neek Rants is a website created by <a href="http://twitter.com/b1naryth1ef">@b1naryth1ef</a> to showcase amazing content provided by some shady character on IRC named neek. I'm not responsible for anything that this nutter says, and am simply providing a way for people to view the insanity and brilliance this guy has (more the former).</p>
-    <p><b>DISCLAMER:</b> None of the expressed opinoins or thoughts here actually reflect my own personal beliefs.</p>
-  </div>
-{% if quotes %}
-  <table class="table table-striped table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Length</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for q in quotes %}
-        <tr>
-          <td><a href="/quote/{{ loop.index0 }}">{{ q.name }}</a></td>
-          <td>{{ q.len }}</td>
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-{% else %}
-<div class="alert alert-error">Whoops! There are no quotes currently avalible!</div>
-{% endif %}
-</div>
-</div>
+    <div class="row-fluid">
+        <div class="span12">
+            <div class='well'>
+                <h1>Welcome to Neek Quotes</h1>
+                <p>Neek Quotes is a website created by <a href="http://twitter.com/b1naryth1ef">@b1naryth1ef</a> to showcase amazing content provided by some shady character on IRC named neek. I'm not responsible for anything that this nutter says, and am simply providing a way for people to view the insanity and brilliance this guy has (more the former). All the quotes are taken and posted by neeks favoritest friends.</p>
+                <p><b>DISCLAMER:</b> None of the expressed opinoins or thoughts here actually reflect my own personal beliefs.</p>
+            </div>
+            {% if quotes %}
+            <table class="table table-striped table-bordered table-condensed">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Length</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for q in quotes %}
+                        <tr>
+                            <td><a href="/{{ loop.index0 }}">{{ q.name }}</a></td>
+                            <td>{{ q.len }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+            <div class="alert alert-error">Whoops! There are no quotes currently avalible!</div>
+            {% endif %}
+        </div>
+    </div>
 {% endblock %}
