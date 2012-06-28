@@ -1,0 +1,73 @@
+19:58 < neek> GameOutput()
+19:58 < neek> explain this to meee
+19:58 < B1nzy> lolwut
+19:59 < B1nzy> you wrote this hoe
+19:59 < neek> hmmm... no! never!
+20:00 < neek> https://github.com/b1naryth1ef/UrTBot/blame/def4dd73e236e49a5ebab762e524a0cb9010b4d2/wrapper.py
+20:00 < neek> I might have written it, but you committed it
+20:00 < neek> BLAME BLAME BLAME
+20:00 < B1nzy> Yeah
+20:00 < B1nzy> Dipshit
+20:01 < neek> class GameOut(), line 60
+20:01 < B1nzy> I regitted e'rything
+20:02 < B1nzy> Ugh I'm grumpy today
+20:02 < B1nzy> neek: <3
+20:02 < neek> https://github.com/b1naryth1ef/UrTBot/blob/c17ff55a9904021ae29a6082e2d44591e7772149/wrapper.py <-- this I remember
+20:02 < neek> maybe I did write that GameOutput stuff
+20:02 < neek> but
+20:02 < B1nzy> :D
+20:02 < neek> what ... is the point?
+20:03 < B1nzy> idfk
+20:03 < B1nzy> You definitly do cuz idk how to do that shit
+20:03 < B1nzy> It reads lines from the socket or file or whatever
+20:04 < B1nzy> Well fuck
+20:04 < B1nzy> It seems as if I did right it
+20:04 < B1nzy> I dont even....
+20:04 < neek> yes yes you did
+20:04 < neek> you bastard
+20:04 < neek> hahahaha
+20:04 < B1nzy> No way
+20:04 < B1nzy> No
+20:04 < B1nzy> I didnt
+20:04 < neek> I'M LOOKING AT IT AND I DID NOT WRITE IT
+20:04 < B1nzy> This is copy/pasta
+20:04 < B1nzy> I DIDNT EITHER
+20:04 < B1nzy> https://github.com/b1naryth1ef/UrTBot/commit/def4dd73e236e49a5ebab762e524a0cb9010b4d2
+20:05 < B1nzy> What even?
+20:05 < B1nzy> So either I'm going crazy
+20:05 < B1nzy> Or...
+20:05 < B1nzy> Does this look like my code?
+20:05 < B1nzy> Oh wait the if statements arent line broken
+20:05 < B1nzy> fuck
+20:05 < neek> it doesn't
+20:05 < B1nzy> So I definitly wrote this... but... why? and .... how?
+20:05 < neek> but it does
+20:05 < B1nzy> Maybe copy/pasta'd?
+20:05 < B1nzy> neek: I DONT KNOW WHO I AM ANYMORE
+20:05 < B1nzy> WHAT IS GOING ON
+20:10 < B1nzy> lol I'm tracing this class back
+20:10 < B1nzy> It's been c/p'd all over the place
+20:11 < B1nzy> HAHAHA
+20:12 < B1nzy> YOU WROTE IT BITCH
+20:12 < B1nzy> YOU WROTE IT
+20:12 < B1nzy> SUCK IT
+20:12 < B1nzy> https://github.com/b1naryth1ef/UrTBot/blame/82aa4656a75f9cb89dc43a3f77c3d9b7b0fab58d/init.py
+20:12 < B1nzy> <<<< Is too happy about this
+20:12 < B1nzy> <3 <3 <3
+20:12 < neek> FUCK
+20:12 < neek> forgery!
+20:12 < neek> FORGERY!
+20:12 < B1nzy> LIES!
+20:12 < B1nzy> HAKz!
+20:13 < B1nzy> I knew it
+20:13 < neek> how but but
+20:13 < B1nzy> HEY
+20:13 < B1nzy> You wrote it
+20:13 < B1nzy> YOU fix it
+20:13 < B1nzy> :D
+20:13 < neek> fuck
+20:13 < B1nzy> Yea
+20:14 < B1nzy> Tried pinning that shit on me
+20:14 < neek> I still blame you somehow
+20:14 < neek> I'll find a way
+20:14 < neek> haha
