@@ -21,4 +21,4 @@ def quote(qid):
 	return render_template('quote.html', quote=QUOTES[int(qid)], qlen=len(QUOTES), n=int(qid))
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
