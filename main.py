@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 QUOTES = []
 
-def onBoot():
+def onBoot(): #@TODO: Make this more static
 	global QUOTES
 	for q in os.listdir('./quotes/'):
 		if not q.endswith('.txt'): continue
